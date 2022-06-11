@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // [
 //     {
 //         "titulo": "Flores del patio",
@@ -20,3 +21,33 @@
 //         "href": ""
 //     }
 // ]
+=======
+[
+    {
+        "titulo": "Mangos del patio",
+        "img": "https://images.pexels.com/photos/6898210/pexels-photo-6898210.jpeg?cs=srgb&dl=pexels-leonel-yedi-6898210.jpg&fm=jpg",
+        "href": ""
+    },
+    {
+        "titulo": "El negro sexy",
+        "img": "https://images.pexels.com/photos/7184495/pexels-photo-7184495.jpeg?cs=srgb&dl=pexels-leonel-yedi-7184495.jpg&fm=jpg",
+        "href": ""
+    },
+    {
+        "titulo": "Soltero fiel",
+        "img": "https://images.pexels.com/photos/7184481/pexels-photo-7184481.jpeg?cs=srgb&dl=pexels-leonel-yedi-7184481.jpg&fm=jpg",
+        "href": ""
+    },
+    {
+        "titulo": "Mi Crush",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Selena_Gomez_in_2021.jpg",
+        "href": ""
+    }
+    ,
+    {
+        "titulo": "Desde el json en GitHub",
+        "img": "https://s3.amazonaws.com/media.eremedia.com/uploads/2017/01/23143044/github4.jpg",
+        "href": ""
+    }
+]
+>>>>>>> 4ad5f414dab68d6aaa89be68227e3e3db935905e
