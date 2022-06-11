@@ -1,4 +1,5 @@
 <script setup>
+import FooterVue from './components/Footer.vue'
 
 import item from './components/item.vue'
 
@@ -6,7 +7,7 @@ import item from './components/item.vue'
 
 
 <script>
-import datos from './datos/services.json'
+// import datos from './datos/services.json'
 
 
 export default {
@@ -17,8 +18,12 @@ export default {
   },
 
   mounted() {
-    this.servicio =   datos;
-    console.log(datos)
+    fetch("https://raw.githubusercontent.com/lyedi/link-tree_vite_part1/main/src/datos/services.json")
+    .then(res  => res.json())
+    .then(res => this.servicio = res)
+    .catch(e => console.log(e))
+    // this.servicio =   datos;
+    // console.log(datos)
   },
 }
 </script>
@@ -34,7 +39,10 @@ export default {
         :key="index"
         :item="servici"
       />
+
   </div>
+
+  <FooterVue/>
  
 </template>
 
