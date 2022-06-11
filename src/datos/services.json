@@ -19,4 +19,10 @@
         "img": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Selena_Gomez_in_2021.jpg",
         "href": ""
     }
+    ,
+    {
+        "titulo": "Desde el json en GitHub",
+        "img": "https://s3.amazonaws.com/media.eremedia.com/uploads/2017/01/23143044/github4.jpg",
+        "href": ""
+    }
 ]
